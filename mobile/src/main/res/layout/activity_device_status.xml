@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_if_list_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ui_refresh_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_action2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action2"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_action3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action3"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_action4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action4"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_action5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action5"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_action6_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action6"
+        tools:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/ui_action7_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action7"
+        tools:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/ui_action8_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action8"
+        tools:textSize="8sp" />
+
+
+    <TextView
+        android:id="@+id/ui_device_current_state"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="State:" />
+
+    <TextView
+        android:id="@+id/ui_device_duration"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="Duration:" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ui_back_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:backgroundTint="@android:color/holo_blue_light"
+        tools:srcCompat="?attr/actionModeCloseDrawable" />
+
+</LinearLayout>

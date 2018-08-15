@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_if_list_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/ui_device_status_label"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Device Status:"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/ui_device_status"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:text=""
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/ui_on_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_off_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD2"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_cmd3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD3"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_cmd4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD4"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_cmd5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD5"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_cmd6_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD6"
+        tools:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/ui_cmd7_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD7"
+        tools:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/ui_cmd8_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CMD8"
+        tools:textSize="8sp" />
+
+
+    <TextView
+        android:id="@+id/ui_cmd_status"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ui_cmd_response"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ui_back_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:backgroundTint="@android:color/holo_blue_light"
+        tools:srcCompat="?attr/actionModeCloseDrawable" />
+
+</LinearLayout>

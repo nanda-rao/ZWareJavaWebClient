@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.silabs.zware.zwarewebclient">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <uses-library android:name="com.google.android.things" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.IOT_LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeviceDiscoveryActivity" />
+        <activity android:name=".DeviceControlActivity" />
+        <activity android:name=".BinarySwitchInterfaceActivity" />
+        <activity android:name=".DeviceStatusActivity" />
+        <activity android:name=".BinarySwitchControlActivity" />
+        <activity android:name=".SettingsActivity"></activity>
+    </application>
+
+</manifest>

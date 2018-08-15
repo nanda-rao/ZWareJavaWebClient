@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_node_list_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ui_zwversion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Version"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ui_zwdesc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Description"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ui_zwnodelist"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="NodeList"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ui_zweplist"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="EPList"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ui_dev1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device1" />
+
+    <Button
+        android:id="@+id/ui_dev2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device2" />
+
+    <Button
+        android:id="@+id/ui_dev3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device3" />
+
+    <Button
+        android:id="@+id/ui_dev4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device4" />
+
+    <Button
+        android:id="@+id/ui_dev5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device5" />
+
+    <Button
+        android:id="@+id/ui_dev6_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device6" />
+
+    <Button
+        android:id="@+id/ui_dev7_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device7" />
+
+    <Button
+        android:id="@+id/ui_dev8_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device8" />
+
+    <Button
+        android:id="@+id/ui_dev9_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device9" />
+
+    <Button
+        android:id="@+id/ui_dev10_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device10" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ui_back_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:backgroundTint="@android:color/holo_blue_light"
+        tools:srcCompat="?attr/actionModeCloseDrawable" />
+
+</LinearLayout>

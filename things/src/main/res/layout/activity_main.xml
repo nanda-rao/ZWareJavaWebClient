@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_login_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ui_user_name_label"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="User Name" />
+
+    <EditText
+        android:id="@+id/ui_user_name"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="sigma"
+        tools:text="sigma" />
+
+    <TextView
+        android:id="@+id/ui_password_label"
+        android:layout_width="110dp"
+        android:layout_height="23dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/ui_password"
+        android:layout_width="180dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="sigmadesigns"
+        tools:text="sigmadesigns" />
+
+    <Button
+        android:id="@+id/ui_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/ui_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:enabled="false"
+        android:text="Next>"
+        tools:enabled="false"
+        tools:text="Next>" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/ui_zware_url_label"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="URL" />
+
+    <TextView
+        android:id="@+id/ui_zware_url"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="zware-portal-rpi.com:80"
+        tools:text="zware-portal-rpi.com:80" />
+
+    <Button
+        android:id="@+id/ui_settings_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Settings" />
+
+
+</LinearLayout>

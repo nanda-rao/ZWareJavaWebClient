@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_login_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/ui_simulation_mode_label"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="Offline Mode"
+        android:summary="@string/pref_simulation_mode_summary"
+        android:title="@string/pref_simulation_mode"/>
+
+    <CheckBox
+        android:id="@+id/ui_simulation_mode"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:defaultValue="false"
+        android:key="pref_simulation_mode"/>
+
+    <TextView
+        android:id="@+id/ui_default_url_label"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="Z-Ware URL:"
+        android:summary="@string/pref_default_url_summary"
+        android:title="@string/pref_default_url"
+        tools:text="Z-Ware URL" />
+
+    <EditText
+        android:id="@+id/ui_zware_default_url"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:key="pref_default_url"
+        android:text="http://192.168.1.10:80" />
+
+    <Button
+        android:id="@+id/ui_back_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Back" />
+
+</LinearLayout>

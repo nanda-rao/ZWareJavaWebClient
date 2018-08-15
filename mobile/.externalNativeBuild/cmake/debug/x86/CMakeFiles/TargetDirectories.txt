@@ -1,0 +1,3 @@
+/Users/narao/AndroidStudioProjects/android/ZWave/ZwareWebClient/mobile/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/narao/AndroidStudioProjects/android/ZWave/ZwareWebClient/mobile/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/narao/AndroidStudioProjects/android/ZWave/ZwareWebClient/mobile/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir

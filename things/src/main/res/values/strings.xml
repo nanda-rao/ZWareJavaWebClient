@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZwareWebClient</string>
+    <string name="pref_simulation_mode">Offline Mode:</string>
+    <string name="pref_simulation_mode_summary">Enables offline simulation mode</string>
+    <string name="pref_default_url">Z-Ware URL</string>
+    <string name="pref_default_url_summary">Default Z-Ware URL:port or IPAddress:port</string>
+    <string name="perf_default_url">http://192.168.1.10:80</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

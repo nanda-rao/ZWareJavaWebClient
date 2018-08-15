@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui_if_list_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+ <Button
+     android:id="@+id/ui_if1_button"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="IF1"
+     tools:textSize="8sp" />
+
+ <Button
+     android:id="@+id/ui_if2_button"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="IF2"
+     tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_if3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF3"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_if4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF4"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_if5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF5"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_if6_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF6"
+        tools:textSize="8sp" />
+
+
+ <Button
+        android:id="@+id/ui_if7_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF7"
+        tools:textSize="8sp" />
+
+
+ <Button
+        android:id="@+id/ui_if8_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF8"
+        tools:textSize="8sp" />
+
+
+ <Button
+        android:id="@+id/ui_if9_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF9"
+        tools:textSize="8sp" />
+
+    <Button
+        android:id="@+id/ui_if10_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF10"
+        tools:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/ui_back_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Back" />
+
+</LinearLayout>
