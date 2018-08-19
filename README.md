@@ -8,7 +8,6 @@ Given that this is the first draft implementation, here are some TO DOs :
 (not necessarily in the order of priority...)
 
 * Standardize Java APIs and extend them to cover key Z-Ware APIs
-* ZWareJavaWebClient porting to Z-Ware AT in localhost mode
 * Need to add support for Add and Remove Node APIs.
 * It currently needs a UZB connected to RPi3 with devices already added to the network.
 * Add more features - Currently, version 1.0 only supports BINARY_SWITCH and upto 10 nodes and 10 end points.
@@ -21,5 +20,5 @@ Given that this is the first draft implementation, here are some TO DOs :
 * The UI framework should be easily customizable to support any UI specification
 * Release on Android Things platform with a sample application
 * The binary release should include ZWareJavaWebClientLibrary.jar and ZWareJavaWebApp.apk in source form
-* Look for To Do's, hacks and comments in the source code 
+* Look for To Do's, hacks and comments in the source code and address them.
 
