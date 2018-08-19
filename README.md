@@ -3,7 +3,8 @@ This project provides a Java implementation of Silicon Labs's Z-Ware Web APIs. I
 
 Note: This project is currently in very early prototype stage.
 
-## Given that this is the first draft implementation, here are some TO DOs :
+## TO DOs
+Given that this is the first draft implementation, here are some TO DOs :
 (not necessarily in the order of priority...)
 
 * Standardize Java APIs and extend them to cover key Z-Ware APIs
