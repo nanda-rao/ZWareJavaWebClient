@@ -1,5 +1,9 @@
 # ZWareJavaWebClient
-This project provides a Java implementation of Silicon Labs's Z-Ware Web APIs. It also provides a Sample Application in Java catering to Android platforms.
+This project provides a Java implementation of Silicon Labs's Z-Ware Web APIs. It also provides a Sample Application in Java catering to Android platforms.Please check docs folder for some documentation. Please check silabs and zware websites for recent updates. 
+https://www.silabs.com/wireless/z-wave
+https://z-wavealliance.org/
+https://github.com/OpenZWave
+https://www.silabs.com/products/development-tools/software/z-wave/controller-sdk/z-ware
 
 Note: This project is currently in very early prototype stage.
 

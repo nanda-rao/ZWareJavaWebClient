@@ -1,0 +1,259 @@
+{
+	"info": {
+		"_postman_id": "4874bcdd-ed73-42aa-bc86-7f0364f963a9",
+		"name": "zwareapis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ZW_VERSION",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_URI_PREFIX}}{{ZW_VERSION_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_URI_PREFIX}}{{ZW_VERSION_API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ZW_LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "usrname",
+							"value": "sigma",
+							"type": "text"
+						},
+						{
+							"key": "passwd",
+							"value": "sigmadesigns",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_REG_PREFIX}}{{ZW_LOGIN_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_REG_PREFIX}}{{ZW_LOGIN_API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ZWNET_GET_DESC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_URI_PREFIX}}{{ZWNET_GET_DESC_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_URI_PREFIX}}{{ZWNET_GET_DESC_API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ZWNET_GET_NODE_LIST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_URI_PREFIX}}{{ZWNET_GET_NODE_LIST_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_URI_PREFIX}}{{ZWNET_GET_NODE_LIST_API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ZW_LOGOUT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_REG_PREFIX}}{{ZW_LOGOUT_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_REG_PREFIX}}{{ZW_LOGOUT_API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ZWNET_GET_NODE_EP_LIST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ZW_PROTOCOL}}://{{ZW_SERVER}}:{{ZW_PORT}}/{{ZW_URI_PREFIX}}{{ZWNET_GET_NODE_EP_LIST_API}}",
+					"protocol": "{{ZW_PROTOCOL}}",
+					"host": [
+						"{{ZW_SERVER}}"
+					],
+					"port": "{{ZW_PORT}}",
+					"path": [
+						"{{ZW_URI_PREFIX}}{{ZWNET_GET_NODE_EP_LIST_API}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "57b15a2f-b1cf-4bf5-abf4-821d496552dc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "eac87558-a829-41ff-b2de-e2537da57de9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "d5177a82-a5cb-4370-baef-bf687493186a",
+			"key": "ZW_PROTOCOL",
+			"value": "http",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "8d8c7d89-762c-447d-83b8-23835ed402cd",
+			"key": "ZW_SERVER",
+			"value": "zware-portal-rpi.com",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "f37f1d4e-52d4-47b7-b870-af26dd5e0163",
+			"key": "ZW_PORT",
+			"value": "80",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "f9e5be14-93c5-4ceb-9be9-e9c7323e0913",
+			"key": "ZW_URI_PREFIX",
+			"value": "/cgi/zcgi/networks/",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "d98ccf49-b741-4c48-a17f-8dbe2de7f5b3",
+			"key": "ZW_VERSION_API",
+			"value": "/zw_version",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "0171224e-77f3-4483-b4c8-8e68c5e8a74d",
+			"key": "ZW_REG_PREFIX",
+			"value": "/register/",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "8d0d5c0c-4343-4523-9dfe-682b15478503",
+			"key": "ZW_LOGIN_API",
+			"value": "/login",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "6276f8fc-c4f9-4f5a-827b-e507022a1b86",
+			"key": "ZWNET_GET_DESC_API",
+			"value": "/zwnet_get_desc",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "e97cf426-2231-4a11-b895-fd08b1d70b23",
+			"key": "ZW_LOGOUT_API",
+			"value": "/logout",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "87904367-a80f-4bdc-a402-13adbee0cf6c",
+			"key": "ZWNET_GET_NODE_LIST_API",
+			"value": "/zwnet_get_node_list",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "01174687-724b-4acf-9a9c-e84d94cfb314",
+			"key": "ZWNET_GET_NODE_EP_LIST_API",
+			"value": "/get_node_ep_list",
+			"type": "string",
+			"description": ""
+		}
+	]
+}
