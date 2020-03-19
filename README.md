@@ -1,7 +1,7 @@
 # ZWareJavaWebClient
 This project provides a Java implementation of Silicon Labs's Z-Ware Web APIs. It also provides a Sample Application in Java catering to Android platforms.
 
-Note: This project is currently in very early prototype stage.
+Note: This project is a very early prototype. Please contact ZWave open alliance or SiLabs ZWave Community for latest developments.
 
 ## TO DOs
 Given that this is the first draft implementation, here are some TO DOs :
